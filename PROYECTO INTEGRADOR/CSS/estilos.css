@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2? family= Figtree:wght@300;500 & display=swap');
+
+*{ margin: 0px;
+padding: 0px;}
+
+body{
+    font-family: 'Figtree', sans-serif;
+    color: rgb(7, 1, 12);
+}
+
+header{
+    width: 1100px;
+    height: 104px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(121, 187, 187);
+}
+
+header nav a { 
+ font-size: 20px;
+ margin: 8px;
+ text-decoration: none;
+ color: rgb(6, 6, 36);
+ transition: 500ms;
+}
+
+header nav a:hover{ color: blue;
+ font-size: 21px;
+}
+
+main{
+   width: 1100px;
+    margin: auto;
+}
+#hero-banner{
+    height: 450px;
+    background-image: url(../imgs/hero\ banner.jpg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+#hero-banner h1{
+    font-size: 40px;
+    color:white;
+}
+
+    
+    
+
+
+
+
+
